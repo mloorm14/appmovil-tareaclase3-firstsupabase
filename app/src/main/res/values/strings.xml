@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">AppSupabaseTestTeilor</string>
+    <string name="ver_materias">Ver materias por semestre</string>
+    <string-array name="niveles">
+        <item>Primer Semestre</item>
+        <item>Segundo Semestre</item>
+        <item>Tercer Semestre</item>
+        <item>Cuarto Semestre</item>
+        <item>Quinto Semestre</item>
+        <item>Sexto Semestre</item>
+        <item>Septimo Semestre</item>
+        <item>Octavo Semestre</item>
+        <item>Noveno Semestre</item>
+        <item>Decimo Semestre</item>
+    </string-array>
 </resources>

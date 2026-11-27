@@ -1,6 +1,8 @@
 package com.example.appsupabasetestteilor
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -28,6 +30,9 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         txtAlumno = findViewById(R.id.TxtMultiLineAlumnos)
+        findViewById<Button>(R.id.btnMaterias).setOnClickListener {
+            startActivity(Intent(this, acrListaSeleccion::class.java))
+        }
         consultarAlumnos()
     }
 
