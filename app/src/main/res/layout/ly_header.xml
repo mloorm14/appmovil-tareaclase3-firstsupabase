@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="40dp"
-    android:gravity="center"
-    android:text="Lista de alumnos"
+    android:layout_height="48dp"
+    android:background="@color/uteq_verde"
+    android:gravity="center_vertical"
+    android:paddingHorizontal="16dp"
+    android:text="@string/lista_alumnos"
+    android:textColor="@android:color/white"
+    android:textSize="16sp"
     android:textStyle="bold" />

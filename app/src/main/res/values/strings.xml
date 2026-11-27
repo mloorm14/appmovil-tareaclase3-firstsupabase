@@ -1,6 +1,17 @@
 <resources>
     <string name="app_name">AppSupabaseTestTeilor</string>
     <string name="foto_estudiante">Foto del estudiante</string>
+    <string name="sga">SGA</string>
+    <string name="marca_uteq">UTEQ</string>
+    <string name="marca_descripcion">Universidad Técnica\nEstatal de Quevedo</string>
+    <string name="seccion_academica">SISTEMA DE GESTIÓN ACADÉMICA</string>
+    <string name="sga_nombre">| Sistema de Gestión Académica</string>
+    <string name="logo_uteq">Universidad Técnica Estatal de Quevedo</string>
+    <string name="consulta_academica">Consulta académica</string>
+    <string name="selecciona_semestre">Selecciona un semestre para consultar sus materias.</string>
+    <string name="semestre">Semestre</string>
+    <string name="materia">Materia</string>
+    <string name="lista_alumnos">Lista de alumnos</string>
     <string name="ver_materias">Ver materias por semestre</string>
     <string-array name="niveles">
         <item>Primer Semestre</item>

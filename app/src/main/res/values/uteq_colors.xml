@@ -1,0 +1,8 @@
+<resources>
+    <color name="uteq_verde">#00552D</color>
+    <color name="uteq_dorado">#E5B73B</color>
+    <color name="uteq_fondo">#F7F9F7</color>
+    <color name="uteq_texto">#203029</color>
+    <color name="uteq_texto_secundario">#56675D</color>
+    <color name="uteq_divisor">#E2EAE3</color>
+</resources>

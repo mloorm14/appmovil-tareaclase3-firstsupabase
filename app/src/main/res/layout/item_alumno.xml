@@ -5,7 +5,8 @@
     android:layout_height="wrap_content"
     android:gravity="center_vertical"
     android:orientation="horizontal"
-    android:padding="12dp">
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="14dp">
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imgAlumno"
@@ -15,6 +16,8 @@
         android:contentDescription="@string/foto_estudiante"
         android:scaleType="centerCrop"
         android:src="@drawable/ic_alumno"
+        app:strokeColor="@color/uteq_dorado"
+        app:strokeWidth="2dp"
         app:shapeAppearanceOverlay="@style/FotoCircular" />
 
     <LinearLayout
@@ -27,19 +30,24 @@
             android:id="@+id/txtNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
+            android:textColor="@color/uteq_texto"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/txtCorreo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/uteq_texto_secundario"
             android:textSize="14sp" />
 
         <TextView
             android:id="@+id/txtTelefono"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/uteq_texto_secundario"
             android:textSize="14sp" />
     </LinearLayout>
 </LinearLayout>
